@@ -55,6 +55,10 @@ Example:
 
 ./disgro -mode smc -f 1ctqa.pdb -n 5000 -nds 32 -start 26 -end 37 -eval -confkeep 1000 -ellip -nscc 20 -pdbout 100
 
+4. Getting RMSD:
+
+After running Disgro, the RMSD for the conformations will be stored in a file called RMSD.pdb. The first column of the file is the conformation number while the second column is the RMSD(original protien, Disgro conformation). 
+
 
 Contact
 ktang6@uic.edu
